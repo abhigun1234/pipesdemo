@@ -7,6 +7,7 @@ import { ReverseComponent } from './reverse/reverse.component';
 import { ReversePipe } from './reverse.pipe';
 import { BuiltinpipeComponent } from './builtinpipe/builtinpipe.component';
 import { MyPipe } from './my.pipe';
+import { MypipePipe } from './mypipe.pipe';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MyPipe } from './my.pipe';
     ReverseComponent,
     ReversePipe,
     BuiltinpipeComponent,
-    MyPipe
+    MyPipe,
+    MypipePipe
   ],
   imports: [
     BrowserModule,

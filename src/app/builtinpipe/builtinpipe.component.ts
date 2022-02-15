@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./builtinpipe.component.css']
 })
 export class BuiltinpipeComponent implements OnInit {
-  name ='arvind'
+  name ='abhishek'
   person ={name:'ravi',age:34}
   date=new Date()
   constructor() { }
